@@ -7,6 +7,45 @@
   pointer-events: none;
 }
 
+/* */
+.cart-wrapper{
+    height: 140px;
+    width: 500px;
+    border: 1px solid #ccc;
+    margin-left: 10%;
+}
+.img-wrapper img {
+  height: 100px;
+}
+.button-wrapper {
+  padding-top: 55px;
+}
+.text-wrapper, .btn-wrapper  {
+  margin-top: 35px;
+}
+.btn-wrapper button {
+  padding: 5px 12px;
+  background-color: orange;
+  border: 1px solid black;
+  border-radius: 4px;
+  color: #fff;
+}
+.item {
+  float: left;
+  width: 120px;
+  padding: 20px;
+  height: 70px;
+}
+.addToCart img{
+  height:80px;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+/* */
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
