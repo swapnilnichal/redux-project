@@ -21,7 +21,7 @@
   padding-top: 55px;
 }
 .text-wrapper, .btn-wrapper  {
-  margin-top: 35px;
+  margin-top: 14px;
 }
 .btn-wrapper button {
   padding: 5px 12px;
@@ -41,6 +41,21 @@
   position: absolute;
   top: 25px;
   right: 25px;
+}
+.cart-count {
+  position: absolute;
+    top: 40px;
+    right: 36px;
+    background-color: brown;
+    width: 25px;
+    height: 25px;
+    z-index: 1;
+    border-radius: 50%;
+    color: white;
+}
+button.remove-cart-btn {
+  background-color: red;
+    margin-top: 8px;
 }
 
 /* */
